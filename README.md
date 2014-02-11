@@ -17,9 +17,9 @@ copy the Adafruit_I2C.py file to the directory of your Trellis project.
 Installation
 ------------
 
-To install, download this repository and execute setup.py:
+To install, download this repository and execute setup.py as root:
 
-    python setup.py install
+    sudo python setup.py install
 
 Usage
 -----
@@ -35,7 +35,9 @@ multiple I2C buses.
 more than one I2C bus (like the Beaglebone Black), you can control more than 8 Trellises!  Note that each I2C bus is still limited
 to only 8 Trellis devices.
 
-See examples of the library usage in the examples folder.
+See examples of the library usage in the examples folder.  Note that you probably need to run scripts as root so they can access the I2C bus.  For example to run the TrellisTest example execute:
+
+    sudo python TrellisTest.py
 
 Changes
 -------
