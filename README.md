@@ -4,6 +4,8 @@ Adafruit Trellis Library For Python
 This is a direct port of the [Adafruit Trellis library](https://github.com/adafruit/Adafruit_Trellis_Library) to Python and
 intended to run on the Beaglebone Black, Raspberry Pi, or other embedded system with Python and I2C support.
 
+<a href="http://imgur.com/qHF6tXM" title="Mobile Upload"><img src="http://i.imgur.com/qHF6tXMl.jpg" title="Hosted by imgur.com" alt="Mobile Upload"/></a>
+
 Dependencies
 ------------
 
