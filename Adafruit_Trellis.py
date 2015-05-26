@@ -65,10 +65,10 @@ class Adafruit_Trellis(object):
 		   Value should be any integer 0 to 15--values outside that range will be
 		   clamped to the boundary value.
 		"""
-  		self._check_i2c()
-  		b = 15 if b > 15 else b
-  		b = 0 if b < 0 else b
-  		self._i2c.writeList(0xE0 | b, [])
+		self._check_i2c()
+		b = 15 if b > 15 else b
+		b = 0 if b < 0 else b
+		self._i2c.writeList(0xE0 | b, [])
 
 	def blinkRate(self, b):
 		"""Set the blink rate to the provided value.
